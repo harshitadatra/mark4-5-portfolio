@@ -42,7 +42,7 @@ hr{
 .secondary-link
 {
     color: var(--primary--color) ;
-    border-radius:0.5 rem;
+    border-radius:0.5rem;
     border:1px solid var(--primary--color);
 }
 /** look into BEM naming convection in css*/
