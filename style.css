@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root{
     --primary--color:purple;
+    --dark--gray:#687280;
 }
+
 body{
 font-family: 'Montserrat', sans-serif;
 }
@@ -49,4 +51,52 @@ hr{
 {
     display: inline;
     padding: 0rem 0.5rem;
+}
+/*navigation*/
+
+.navigation
+{
+    background-color: var(--primary--color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation a{
+    color: white;
+
+}
+.navigation .nav-pills
+{
+    text-align: right;
+}
+.navigation .nav-brand
+{
+    font-weight: bold;
+
+}
+.navigation .link-active
+{
+  font-weight:bold;
+}
+
+/**header**/
+.hero
+{
+    padding:2rem
+}
+.hero .hero-img
+{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+.hero .hero-heading
+{
+    color: var(--dark--gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+.hero .hero-heading .heading-inverted
+{
+    color: var(--primary--color);
 }
