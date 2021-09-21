@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>component library</title>
+
+  <!---  css way 1: style tag
+     <style>
+        body{
+            color:red
+        }
+    </style>-->
+    <!--thirs way of doing css externe=al link-->
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1> harshit adatra component library </h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    <h1 id="lib-header"> harshit adatra component library </h1>
+    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
     </p>
     <hr>
     <h2>
@@ -18,13 +27,13 @@
     <h1>this is the biggest heading</h1>
     <h2>this is the second biggest heading</h2>
     <p> let me show you the normal text. this is free and will wrap at the end like a paragraph.</p>
-    <small> this is realtively smaller text</small>
+    <small class="para"> this is realtively smaller text</small>
     <hr>
     <h2> @container</h2>
     <h3>fluid container</h3>
     <div>this is a fluid container and this will go till the end of the page.</div>
     <h3>fluid container</h3>
-    <div> this is a centered container and it will go till the specified width</div>
+    <div class="para"> this is a centered container and it will go till the specified width</div>
     <hr>
 
     <div>this is a centered container and it will go till the specified width.</div>
